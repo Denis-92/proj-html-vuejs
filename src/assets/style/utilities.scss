@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center-x {
+    justify-content: center;
+}
+
+.flex-center-y {
+    align-items: center;
+}
+
+.flex-around-x {
+    justify-content: space-around;
+}
