@@ -6,7 +6,7 @@
                 <a href="#">
                     {{ elements.name }}
                 </a>
-                <span class="absolute">NEW</span>
+                <span v-if="elements.new" class="absolute">NEW</span>
             </li>
         </ul>
     </nav>
