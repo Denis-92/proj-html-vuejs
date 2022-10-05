@@ -42,6 +42,8 @@ export default {
 
 
 <style lang="scss">
+@import '@/assets/style/generics.scss';
+
 #app {
   >* {
     margin: 1%;
