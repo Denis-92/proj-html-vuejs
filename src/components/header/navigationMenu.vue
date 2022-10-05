@@ -2,10 +2,11 @@
     <nav class="flex flex-between-x flex-center-y">
         <span class="text-properties">English</span>
         <ul class="flex">
-            <li v-for="elements in importedLinks" :key="elements.name" class="text-properties">
+            <li v-for="elements in importedLinks" :key="elements.name" class="text-properties relative">
                 <a href="#">
                     {{ elements.name }}
                 </a>
+                <span class="absolute">NEW</span>
             </li>
         </ul>
     </nav>
@@ -34,6 +35,13 @@ li {
     a {
         text-decoration: none;
         color: grey;
+    }
+
+    .absolute {
+        top: 0;
+        right: 0;
+        color: white;
+        background-color: red;
     }
 }
 
