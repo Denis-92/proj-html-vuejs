@@ -12,5 +12,8 @@ export default {
   
 
 <style lang="scss" scoped>
-
+div {
+    background-color: aqua;
+    height: 200px;
+}
 </style>  

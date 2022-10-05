@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>NAVIGATION</h2>
     </div>
 </template>
   
@@ -12,5 +13,8 @@ export default {
   
 
 <style lang="scss" scoped>
-
+div {
+    background-color: aqua;
+    height: 100px;
+}
 </style>  
