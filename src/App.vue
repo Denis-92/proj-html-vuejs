@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <navigationMenuVue />
+    <navigationMenuVue :importedLinks="navLinks" />
     <linksActionVue />
     <joinCTAVue />
     <achieveRewardVue />
@@ -14,6 +14,8 @@
 
 
 <script>
+import { navLinks } from '@/assets/data/navHeader.js';
+
 import navigationMenuVue from '@/components/header/navigationMenu.vue';
 import linksActionVue from '@/components/header/linksAction.vue';
 import joinCTAVue from '@/components/main/joinCTA.vue';
@@ -36,6 +38,9 @@ export default {
     recentCoursesVue,
     statisticSuccessVue,
     subscribeNewsletterVue,
+  },
+  data() {
+    return { navLinks };
   },
 }
 </script>
