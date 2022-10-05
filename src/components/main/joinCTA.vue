@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>JOIN CALL TO ACTION</h2>
     </div>
 </template>
   

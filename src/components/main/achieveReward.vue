@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>ACHIEVE REWARDS</h2>
     </div>
 </template>
   
