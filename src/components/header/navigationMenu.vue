@@ -2,30 +2,24 @@
     <nav class="flex flex-between-x flex-center-y text-properties">
         <span>
             English
+            <font-awesome-icon icon="fa-solid fa-chevron-down" />
         </span>
 
         <ul class="flex flex-center-y text-properties">
+
             <li v-for="elements in importedLinks" :key="elements.name" class="relative">
                 <a href="#">
                     {{ elements.name }}
                 </a>
                 <span v-if="elements.new" class="absolute">NEW</span>
             </li>
+
             <li v-for="elements in importedSocials" :key="elements.name">
                 <a href="#">
-                    <font-awesome-icon :icon="elements.name " />
+                    <font-awesome-icon :icon="elements.name" />
                 </a>
             </li>
-            <!-- <li>
-                <a href="#">
-                    <font-awesome-icon icon="fa-brands fa-instagram" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <font-awesome-icon icon="fa-brands fa-behance" />
-                </a>
-            </li> -->
+
         </ul>
     </nav>
 </template>
@@ -65,7 +59,7 @@ li {
 }
 
 .text-properties>* {
-    padding: 0.7rem;
-    font-size: 0.7rem;
+    padding: 0.8rem;
+    font-size: 0.8rem;
 }
 </style>  
