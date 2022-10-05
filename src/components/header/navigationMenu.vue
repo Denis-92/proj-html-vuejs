@@ -13,6 +13,8 @@ export default {
   
 
 <style lang="scss" scoped>
+@import '@/assets/style/utilities.scss';
+
 div {
     background-color: aqua;
     height: 100px;
