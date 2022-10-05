@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>READ MORE CALL TO ACTION</h2>
     </div>
 </template>
   

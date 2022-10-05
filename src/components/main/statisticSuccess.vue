@@ -1,5 +1,6 @@
 <template>
     <div>
+        STATISTICS SUCCESS
     </div>
 </template>
   

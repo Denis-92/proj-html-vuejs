@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>RECENT COURSES</h2>
     </div>
 </template>
   

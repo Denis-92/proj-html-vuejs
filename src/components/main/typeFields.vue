@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>TYPE FIELDS</h2>
     </div>
 </template>
   

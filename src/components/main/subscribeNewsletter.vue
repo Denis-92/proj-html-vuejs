@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>NEWSLETTER</h2>
     </div>
 </template>
   
