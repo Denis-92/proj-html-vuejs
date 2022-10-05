@@ -1,6 +1,10 @@
 <template>
     <nav class="flex flex-between-x flex-center-y">
-        <span class="text-properties">English</span>
+        <span class="text-properties">
+            English
+            <font-awesome-icon icon="fa-solid fa-user-secret" />
+            <font-awesome-icon icon="fa-brands fa-twitter" />
+        </span>
         <ul class="flex">
             <li v-for="elements in importedLinks" :key="elements.name" class="text-properties relative">
                 <a href="#">
