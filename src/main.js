@@ -16,7 +16,7 @@ import {
   faFlickr,
   faGit,
   faLinkedin,
-  faPinterest
+  faPinterest,
 } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
@@ -28,7 +28,7 @@ library.add(
   faFlickr,
   faGit,
   faLinkedin,
-  faPinterest
+  faPinterest,
 )
 
 /* add font awesome icon component */

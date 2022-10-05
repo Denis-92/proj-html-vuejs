@@ -11,12 +11,12 @@
                 </a>
                 <span v-if="elements.new" class="absolute">NEW</span>
             </li>
-            <li>
+            <li v-for="elements in importedSocials" :key="elements.name">
                 <a href="#">
-                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                    <font-awesome-icon :icon="elements.name " />
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#">
                     <font-awesome-icon icon="fa-brands fa-instagram" />
                 </a>
@@ -25,7 +25,7 @@
                 <a href="#">
                     <font-awesome-icon icon="fa-brands fa-behance" />
                 </a>
-            </li>
+            </li> -->
         </ul>
     </nav>
 </template>
@@ -38,6 +38,7 @@ export default {
     name: 'navigationMenu',
     props: {
         importedLinks: Array,
+        importedSocials: Array,
     }
 
 }

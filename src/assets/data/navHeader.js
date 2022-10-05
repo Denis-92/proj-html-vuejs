@@ -34,4 +34,15 @@ export const navLinks = [
         "name": "Demos",
         "new": false,
     },
-]
+];
+
+export const socials = [
+    { "name": "fa-brands fa-twitter" },
+    { "name": "fa-brands fa-instagram" },
+    { "name": "fa-brands fa-behance" },
+    { "name": "fa-brands fa-dribbble" },
+    { "name": "fa-brands fa-flickr" },
+    { "name": "fa-brands fa-git" },
+    { "name": "fa-brands fa-linkedin" },
+    { "name": "fa-brands fa-pinterest" },
+];
