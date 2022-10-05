@@ -1,8 +1,12 @@
 <template>
-    <nav class="flex flex-between-x">
-        <h2>NAVIGATION</h2>
+    <nav class="flex flex-between-x flex-center-y">
+        <span class="text-properties">English</span>
         <ul class="flex">
-            <li v-for="elements in importedLinks" :key="elements.name">{{ elements.name }}</li>
+            <li v-for="elements in importedLinks" :key="elements.name" class="text-properties">
+                <a href="#">
+                    {{ elements.name }}
+                </a>
+            </li>
         </ul>
     </nav>
 </template>
@@ -24,12 +28,17 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/style/utilities.scss';
 
-nav {
-    background-color: aqua;
-    height: 100px;
+li {
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+        color: grey;
+    }
 }
 
-li {
-    margin: 1rem;
+.text-properties {
+    padding: 0.7rem;
+    font-size: 0.7rem;
 }
 </style>  
