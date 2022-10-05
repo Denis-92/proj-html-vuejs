@@ -1,16 +1,30 @@
 <template>
-    <nav class="flex flex-between-x flex-center-y">
-        <span class="text-properties">
+    <nav class="flex flex-between-x flex-center-y text-properties">
+        <span>
             English
-            <font-awesome-icon icon="fa-solid fa-user-secret" />
-            <font-awesome-icon icon="fa-brands fa-twitter" />
         </span>
-        <ul class="flex">
-            <li v-for="elements in importedLinks" :key="elements.name" class="text-properties relative">
+
+        <ul class="flex flex-center-y text-properties">
+            <li v-for="elements in importedLinks" :key="elements.name" class="relative">
                 <a href="#">
                     {{ elements.name }}
                 </a>
                 <span v-if="elements.new" class="absolute">NEW</span>
+            </li>
+            <li>
+                <a href="#">
+                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <font-awesome-icon icon="fa-brands fa-instagram" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <font-awesome-icon icon="fa-brands fa-behance" />
+                </a>
             </li>
         </ul>
     </nav>
@@ -49,7 +63,7 @@ li {
     }
 }
 
-.text-properties {
+.text-properties>* {
     padding: 0.7rem;
     font-size: 0.7rem;
 }
