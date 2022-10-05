@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <nav class="flex flex-between-x">
         <h2>NAVIGATION</h2>
-    </div>
+        <div>CIAO</div>
+    </nav>
 </template>
   
 
@@ -15,7 +16,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/style/utilities.scss';
 
-div {
+nav {
     background-color: aqua;
     height: 100px;
 }
