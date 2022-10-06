@@ -1,44 +1,38 @@
 <template>
   <div id="app">
+    <!-- HEADER COMPONENT -->
     <navigationMenuVue :importedLinks="navLinks" :importedSocials="socials" />
     <linksActionVue />
-    <joinCTAVue />
-    <achieveRewardVue />
-    <typeFieldsVue />
-    <readMoreCTAVue />
-    <recentCoursesVue />
-    <statisticSuccessVue />
-    <subscribeNewsletterVue />
+
+    <!-- MAIN COMPONENT -->
+    <mainComponentVue />
+
+    <!-- FOOTER COMPONENT - TO DO -->
+
   </div>
 </template>
 
 
 <script>
+// DATA LINKS NAV BAR
 import { navLinks } from '@/assets/data/navHeader.js';
+
+// ICONS FONT AWESOME
 import { socials } from '@/assets/data/navHeader.js';
 
+// IMPORT HEADER COMPONENTS
 import navigationMenuVue from '@/components/header/navigationMenu.vue';
 import linksActionVue from '@/components/header/linksAction.vue';
-import joinCTAVue from '@/components/main/joinCTA.vue';
-import achieveRewardVue from '@/components/main/achieveReward.vue';
-import typeFieldsVue from '@/components/main/typeFields.vue';
-import readMoreCTAVue from '@/components/main/readMoreCTA.vue';
-import recentCoursesVue from '@/components/main/recentCourses.vue';
-import statisticSuccessVue from '@/components/main/statisticSuccess.vue';
-import subscribeNewsletterVue from '@/components/main/subscribeNewsletter.vue';
+
+// IMPORT MAIN COMPONENT
+import mainComponentVue from '@/components/mainComponent.vue';
 
 export default {
   name: 'App',
   components: {
     navigationMenuVue,
     linksActionVue,
-    joinCTAVue,
-    achieveRewardVue,
-    typeFieldsVue,
-    readMoreCTAVue,
-    recentCoursesVue,
-    statisticSuccessVue,
-    subscribeNewsletterVue,
+    mainComponentVue,
   },
   data() {
     return { navLinks, socials };
