@@ -3,7 +3,9 @@
     <joinCTAVue />
     <achieveRewardVue />
     <typeFieldsVue />
-    <readMoreCTAVue />
+    <div id="jumbotron">
+      <readMoreCTAVue />
+    </div>
     <recentCoursesVue />
     <statisticSuccessVue />
     <subscribeNewsletterVue />
@@ -36,10 +38,16 @@ export default {
 
 
 <style lang="scss" scoped>
-#mainComponent {
-  >* {
-    margin: 1%;
-    border: 1px solid black;
-  }
+// #mainComponent {
+//   >* {
+//     margin: 1%;
+//     border: 1px solid black;
+//   }
+// }
+
+#jumbotron {
+  background-image: url('@/assets/img/images/Untitled-1-1-1-1-1.png');
+  background-position: center;
+  background-size: contain;
 }
 </style>
