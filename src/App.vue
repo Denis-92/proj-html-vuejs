@@ -55,6 +55,5 @@ export default {
 
 .little-container {
   max-width: 1000px;
-  margin: 0 auto;
 }
 </style>
