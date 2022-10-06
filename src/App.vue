@@ -43,6 +43,8 @@ export default {
 
 <style lang="scss">
 @import '@/assets/style/generics.scss';
+@import '@/assets/style/utilities.scss';
+
 
 #app {
   >* {
