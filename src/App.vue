@@ -5,7 +5,8 @@
     <linksActionVue />
 
     <!-- MAIN COMPONENT -->
-    <mainComponentVue class="flex flex-column flex-center-y" />
+    <mainComponentVue />
+    <!-- class="flex flex-column flex-center-y" -->
 
     <!-- FOOTER COMPONENT - TO DO -->
 
@@ -46,14 +47,15 @@ export default {
 @import '@/assets/style/utilities.scss';
 
 
-#app {
-  >* {
-    margin: 1%;
-    border: 1px solid black;
-  }
-}
+// #app {
+//   >* {
+//     margin: 1%;
+//     border: 1px solid black;
+//   }
+// }
 
 .little-container {
   max-width: 1000px;
+  margin: 0 auto;
 }
 </style>
