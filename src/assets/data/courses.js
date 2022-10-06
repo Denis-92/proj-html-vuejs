@@ -1,5 +1,6 @@
 export const courses = [
     {
+        "id": 1,
         "name": "Web Coding and Apache Basics",
         "category": "Software Development",
         "sub-category": "Apache",
@@ -12,6 +13,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 2,
         "name": "Real Things Art Painting by Jason Ni",
         "category": "Art",
         "sub-category": "Art",
@@ -24,6 +26,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 3,
         "name": "Basics of Masterstudy",
         "category": "Software Development",
         "sub-category": "Software Development",
@@ -36,6 +39,7 @@ export const courses = [
         "vote": "5",
     },
     {
+        "id": 4,
         "name": "How to be a DJ? Make Electronic Music",
         "category": "Music",
         "sub-category": "Electronic",
@@ -48,6 +52,7 @@ export const courses = [
         "vote": "5",
     },
     {
+        "id": 5,
         "name": "Design Instruments for Communication",
         "category": "Material Design",
         "sub-category": "Communication",
@@ -60,6 +65,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 6,
         "name": "Make your Concept Right and Beautiful",
         "category": "Art",
         "sub-category": "Art",
@@ -72,6 +78,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 7,
         "name": "Road Bike Manual or How to Be a Champion.",
         "category": "Exercise",
         "sub-category": "Bycycling",
@@ -84,6 +91,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 8,
         "name": "How to Make Beautiful Landscape photos?",
         "category": "Photography",
         "sub-category": "Documentary",
@@ -96,6 +104,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 9,
         "name": "Let`s paint Van Gogh`s Starry Night",
         "category": "Art",
         "sub-category": "Art",
@@ -108,6 +117,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 10,
         "name": "Nvidia and UE4 Technologies Practice",
         "category": "Software Development",
         "sub-category": "Nvidia",
@@ -120,6 +130,7 @@ export const courses = [
         "vote": "5",
     },
     {
+        "id": 11,
         "name": "How to Work with Legendary RED camera?",
         "category": "Art",
         "sub-category": "Art",
@@ -132,6 +143,7 @@ export const courses = [
         "vote": "none",
     },
     {
+        "id": 12,
         "name": "MasterStudy Mobile LMS App",
         "category": "Software Development",
         "sub-category": "Software Development",
@@ -143,4 +155,14 @@ export const courses = [
         "featured": false,
         "vote": "none",
     },
+];
+
+export const categoriesCourses = [
+    { "category": "All Categories" },
+    { "category": "Art" },
+    { "category": "Exercise" },
+    { "category": "Material Design" },
+    { "category": "Music" },
+    { "category": "Photography" },
+    { "category": "Software Development" },
 ];
