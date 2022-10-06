@@ -1,6 +1,17 @@
 <template>
-    <div>
-        <h2>READ MORE CALL TO ACTION</h2>
+    <div class="little-container">
+        <div class="flex" id="jumbotron-text">
+
+            <div class="flex flex-column">
+                <h3>Limitless learning, more possibilities</h3>
+                <p>
+                    Online courses open the opportunity for learning to almost anyone,
+                    regardless of their scheduling commitments.
+                </p>
+                <button>READ MORE</button>
+            </div>
+
+        </div>
     </div>
 </template>
   
@@ -13,8 +24,12 @@ export default {
   
 
 <style lang="scss" scoped>
-div {
-    background-color: aqua;
-    height: 200px;
+button {
+    width: 10rem;
+}
+
+#jumbotron-text {
+    width: 50%;
+    font-size: 1.4rem;
 }
 </style>  
