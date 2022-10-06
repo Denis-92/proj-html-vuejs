@@ -1,6 +1,9 @@
 <template>
-    <div class="little-container">
-        <h2>RECENT COURSES</h2>
+    <div class="big-container">
+        <div class="flex flex-column flex-center-y">
+            <h3>Recent courses</h3>
+
+        </div>
     </div>
 </template>
   
@@ -14,7 +17,7 @@ export default {
 
 <style lang="scss" scoped>
 div {
-    background-color: aqua;
+    background-color: blue;
     height: 200px;
 }
 </style>  
