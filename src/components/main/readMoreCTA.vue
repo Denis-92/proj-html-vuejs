@@ -1,5 +1,6 @@
 <template>
     <div class="little-container">
+
         <div class="flex" id="jumbotron-text">
 
             <div class="flex flex-column">
@@ -12,6 +13,7 @@
             </div>
 
         </div>
+
     </div>
 </template>
   
@@ -31,5 +33,10 @@ button {
 #jumbotron-text {
     width: 50%;
     font-size: 1.4rem;
+    padding: 5rem 0;
+
+    >div>* {
+        margin: 1rem 0;
+    }
 }
 </style>  
