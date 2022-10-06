@@ -43,10 +43,8 @@ export default {
 
 <style lang="scss" scoped>
 li {
-    list-style-type: none;
-
     a {
-        text-decoration: none;
+        // TO DO: BETTER SOLUTION?
         color: grey;
     }
 
