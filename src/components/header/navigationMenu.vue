@@ -40,8 +40,6 @@ export default {
   
 
 <style lang="scss" scoped>
-@import '@/assets/style/utilities.scss';
-
 li {
     list-style-type: none;
 

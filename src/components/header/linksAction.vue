@@ -30,9 +30,5 @@ export default {
   
 
 <style lang="scss" scoped>
-@import '@/assets/style/utilities.scss';
 
-div {
-    height: 100px;
-}
 </style>  
