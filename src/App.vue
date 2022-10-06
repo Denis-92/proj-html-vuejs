@@ -5,7 +5,7 @@
     <linksActionVue />
 
     <!-- MAIN COMPONENT -->
-    <mainComponentVue />
+    <mainComponentVue :importedCourses="courses" />
     <!-- class="flex flex-column flex-center-y" -->
 
     <!-- FOOTER COMPONENT - TO DO -->
@@ -15,11 +15,19 @@
 
 
 <script>
+
 // DATA LINKS NAV BAR
 import { navLinks } from '@/assets/data/navHeader.js';
 
-// ICONS FONT AWESOME
+// DATA ICONS FONT AWESOME
 import { socials } from '@/assets/data/navHeader.js';
+
+// DATA COURSES
+import { courses } from '@/assets/data/courses.js';
+
+// DATA CATEGORIES COURSES
+import { categoriesCourses } from '@/assets/data/courses.js';
+
 
 // IMPORT HEADER COMPONENTS
 import navigationMenuVue from '@/components/header/navigationMenu.vue';
@@ -36,7 +44,7 @@ export default {
     mainComponentVue,
   },
   data() {
-    return { navLinks, socials };
+    return { navLinks, socials, courses, categoriesCourses, };
   },
 }
 </script>
@@ -45,14 +53,6 @@ export default {
 <style lang="scss">
 @import '@/assets/style/generics.scss';
 @import '@/assets/style/utilities.scss';
-
-
-// #app {
-//   >* {
-//     margin: 1%;
-//     border: 1px solid black;
-//   }
-// }
 
 .little-container {
   max-width: 1000px;
