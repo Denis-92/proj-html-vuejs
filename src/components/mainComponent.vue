@@ -21,7 +21,7 @@ import statisticSuccessVue from '@/components/main/statisticSuccess.vue';
 import subscribeNewsletterVue from '@/components/main/subscribeNewsletter.vue';
 
 export default {
-  name: 'App',
+  name: 'mainComponent',
   components: {
     joinCTAVue,
     achieveRewardVue,
