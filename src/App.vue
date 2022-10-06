@@ -5,7 +5,7 @@
     <linksActionVue />
 
     <!-- MAIN COMPONENT -->
-    <mainComponentVue />
+    <mainComponentVue class="flex flex-column flex-center-y" />
 
     <!-- FOOTER COMPONENT - TO DO -->
 
