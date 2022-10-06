@@ -52,4 +52,9 @@ export default {
     border: 1px solid black;
   }
 }
+
+.little-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 </style>
