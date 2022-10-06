@@ -6,7 +6,7 @@
                 <font-awesome-icon icon="fa-solid fa-chevron-down" />
             </span>
 
-            <ul class="flex flex-center-y">
+            <ul class="flex flex-center-y text-properties">
 
                 <li v-for="elements in importedLinks" :key="elements.name" class="relative">
                     <a href="#">
