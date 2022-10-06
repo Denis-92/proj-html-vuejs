@@ -1,23 +1,25 @@
 <template>
-    <div class="flex flex-around-x flex-center-y">
+    <div class="big-container">
+        <div class="flex flex-between-x flex-center-y">
 
-        <img src="@/assets/img/images/MasterStudy_logo.svg" alt="Master Study Logo">
+            <img src="@/assets/img/images/MasterStudy_logo.svg" alt="Master Study Logo">
 
-        <p>CATEGORY</p>
+            <p>CATEGORY</p>
 
-        <div class="flex flex-center-y">
-            <input type="text">
-            <input type="button" value="searchbar">
+            <div class="flex flex-center-y">
+                <input type="text">
+                <input type="button" value="searchbar">
+            </div>
+
+            <a href="#">Become an Instructor</a>
+
+            <a href="#">For Enterprise</a>
+
+            <a href="#">Log in</a>
+
+            <button>SIGN UP</button>
+
         </div>
-
-        <a href="#">Become an Instructor</a>
-
-        <a href="#">For Enterprise</a>
-
-        <a href="#">Log in</a>
-
-        <button>SIGN UP</button>
-
     </div>
 </template>
   

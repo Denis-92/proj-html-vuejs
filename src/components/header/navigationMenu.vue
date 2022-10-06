@@ -1,26 +1,28 @@
 <template>
-    <nav class="flex flex-between-x flex-center-y text-properties">
-        <span>
-            English
-            <font-awesome-icon icon="fa-solid fa-chevron-down" />
-        </span>
+    <nav class="big-container">
+        <div class="flex flex-between-x flex-center-y text-properties">
+            <span>
+                English
+                <font-awesome-icon icon="fa-solid fa-chevron-down" />
+            </span>
 
-        <ul class="flex flex-center-y text-properties">
+            <ul class="flex flex-center-y">
 
-            <li v-for="elements in importedLinks" :key="elements.name" class="relative">
-                <a href="#">
-                    {{ elements.name }}
-                </a>
-                <span v-if="elements.new" class="absolute">NEW</span>
-            </li>
+                <li v-for="elements in importedLinks" :key="elements.name" class="relative">
+                    <a href="#">
+                        {{ elements.name }}
+                    </a>
+                    <span v-if="elements.new" class="absolute">NEW</span>
+                </li>
 
-            <li v-for="elements in importedSocials" :key="elements.name">
-                <a href="#">
-                    <font-awesome-icon :icon="elements.name" />
-                </a>
-            </li>
+                <li v-for="elements in importedSocials" :key="elements.name">
+                    <a href="#">
+                        <font-awesome-icon :icon="elements.name" />
+                    </a>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </nav>
 </template>
   
@@ -60,4 +62,6 @@ li {
     padding: 0.8rem;
     font-size: 0.8rem;
 }
+
+/* TO DO: REMOVE PADDING FROM FIRST AND LAST ELEMENT */
 </style>  

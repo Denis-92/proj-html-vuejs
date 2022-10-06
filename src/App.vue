@@ -58,4 +58,9 @@ export default {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.big-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 </style>
