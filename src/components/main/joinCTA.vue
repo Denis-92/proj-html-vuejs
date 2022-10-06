@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-between-x" id="join-cta-container">
-        <div class="flex flex-column flex-center-x">
+        <div class="flex flex-column flex-center-x" id="investing-you">
             <h2>Start Investing in You</h2>
             <p>With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you</p>
             <button id="join-cta">JOIN FOR FREE</button>
@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 #join-cta {
-    width: 8rem;
+    width: 10rem;
 }
 
 #join-cta-container {
@@ -30,6 +30,12 @@ export default {
 
     >div {
         height: 25rem;
+    }
+}
+
+#investing-you {
+    >* {
+        margin: 1rem;
     }
 }
 </style>  
