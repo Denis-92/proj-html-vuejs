@@ -6,7 +6,7 @@
     <div id="jumbotron">
       <readMoreCTAVue />
     </div>
-    <recentCoursesVue :importedCourses="importedCourses" />
+    <recentCoursesVue :importedCourses="importedCourses" :importedCategoriesCourses="importedCategoriesCourses" />
     <statisticSuccessVue />
     <subscribeNewsletterVue />
   </main>
@@ -35,6 +35,7 @@ export default {
   },
   props: {
     importedCourses: Array,
+    importedCategoriesCourses: Array,
   }
 }
 </script>

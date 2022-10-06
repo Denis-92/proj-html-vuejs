@@ -3,7 +3,7 @@
         <div class="flex flex-column flex-center-y">
             <h3>Recent courses</h3>
             <div class="flex flex-aroud-x">
-                <ul v-for="element in importedCourses" :key="element.id">
+                <ul v-for="element in importedCategoriesCourses" :key="element.category">
                     <li>
                         <button>
                             {{ element.category }}
@@ -21,6 +21,7 @@ export default {
     name: 'recentCourses',
     props: {
         importedCourses: Array,
+        importedCategoriesCourses: Array,
     },
 }
 </script>

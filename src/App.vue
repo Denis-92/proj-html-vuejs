@@ -5,7 +5,7 @@
     <linksActionVue />
 
     <!-- MAIN COMPONENT -->
-    <mainComponentVue :importedCourses="courses" />
+    <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses" />
     <!-- class="flex flex-column flex-center-y" -->
 
     <!-- FOOTER COMPONENT - TO DO -->
