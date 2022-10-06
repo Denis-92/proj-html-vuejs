@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="little-container">
         <h2>NEWSLETTER</h2>
     </div>
 </template>

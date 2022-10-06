@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="little-container">
         STATISTICS SUCCESS
     </div>
 </template>
