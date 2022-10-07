@@ -1,6 +1,11 @@
 <template>
     <div class="little-container">
-        STATISTICS SUCCESS
+        <div class="flex flex-column flex-center-y">
+            <h3>We are Proud</h3>
+            <p>Certificate courses are instructed by highly educated and qualified instructors who hold
+                doctoral and master's level degrees.
+            </p>
+        </div>
     </div>
 </template>
   
@@ -14,7 +19,6 @@ export default {
 
 <style lang="scss" scoped>
 div {
-    background-color: aqua;
     height: 200px;
 }
 </style>  

@@ -3,11 +3,13 @@
     <joinCTAVue />
     <achieveRewardVue />
     <typeFieldsVue />
-    <div id="jumbotron">
+    <div id="jumbotron-read-more">
       <readMoreCTAVue />
     </div>
     <recentCoursesVue :importedCourses="importedCourses" :importedCategoriesCourses="importedCategoriesCourses" />
-    <statisticSuccessVue />
+    <div id="jumbotron-we-proud">
+      <statisticSuccessVue />
+    </div>
     <subscribeNewsletterVue />
   </main>
 </template>
@@ -49,9 +51,15 @@ export default {
   }
 }
 
-#jumbotron {
+#jumbotron-read-more {
   background-image: url('@/assets/img/images/Untitled-1-1-1-1-1.png');
   background-position: center;
-  background-size: contain;
+  background-size: cover; //oppure contain?
+}
+
+#jumbotron-we-proud {
+  background-image: url('@/assets/img/images/we_proud.png');
+  background-position: center;
+  background-size: cover;
 }
 </style>
