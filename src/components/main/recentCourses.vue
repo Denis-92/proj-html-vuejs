@@ -24,6 +24,8 @@
                 </div>
             </div>
 
+            <button>SHOW ALL</button>
+
         </div>
     </div>
 </template>
