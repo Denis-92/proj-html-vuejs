@@ -42,12 +42,12 @@ export default {
 
 
 <style lang="scss" scoped>
-// #mainComponent {
-//   >* {
-//     margin: 1%;
-//     border: 1px solid black;
-//   }
-// }
+#mainComponent {
+  >* {
+    margin: 2rem auto;
+    border: 1px solid black;
+  }
+}
 
 #jumbotron {
   background-image: url('@/assets/img/images/Untitled-1-1-1-1-1.png');
