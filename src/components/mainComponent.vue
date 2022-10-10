@@ -25,7 +25,7 @@
       <popularCoursesVue :importedCourses="importedCourses" />
     </div>
 
-    <div class="flex big-container">
+    <div class="flex flex-center-x big-container border-sub-section">
       <startTeachingVue />
       <doingBusinessVue />
     </div>
@@ -108,5 +108,10 @@ export default {
 #newsletter {
   background-color: #4ed7a8;
   color: white;
+}
+
+.border-sub-section>* {
+  border: 1px solid #888;
+  margin: 0.5rem;
 }
 </style>
