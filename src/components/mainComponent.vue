@@ -23,6 +23,11 @@
 
     <popularCoursesVue :importedCourses="importedCourses" />
 
+    <div class="flex big-container">
+      <startTeachingVue />
+      <doingBusinessVue />
+    </div>
+
   </main>
 </template>
 
@@ -36,6 +41,8 @@ import recentCoursesVue from '@/components/main/recentCourses.vue';
 import statisticSuccessVue from '@/components/main/statisticSuccess.vue';
 import subscribeNewsletterVue from '@/components/main/subscribeNewsletter.vue';
 import popularCoursesVue from '@/components/main/popularCourses.vue';
+import startTeachingVue from '@/components/main/startTeaching.vue';
+import doingBusinessVue from '@/components/main/doingBusiness.vue';
 
 export default {
   name: 'mainComponent',
@@ -48,6 +55,8 @@ export default {
     statisticSuccessVue,
     subscribeNewsletterVue,
     popularCoursesVue,
+    startTeachingVue,
+    doingBusinessVue,
   },
   props: {
     importedCourses: Array,
