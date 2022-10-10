@@ -4,7 +4,7 @@
         <div class="flex">
 
             <div class="flex flex-column">
-                <h3>Setup For Business</h3>
+                <h2>Setup For Business</h2>
                 <p>
                     Get unlimited access to 2,500 of Udemy's top
                     courses for your team.

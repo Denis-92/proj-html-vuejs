@@ -4,7 +4,7 @@
         <div class="flex">
 
             <div class="flex flex-column">
-                <h3>Become an Instructor</h3>
+                <h2>Become an Instructor</h2>
                 <p>
                     Teach what you love. Masterstudy gives you
                     the tools to create a course.

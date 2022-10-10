@@ -3,7 +3,7 @@
         <div class="flex">
 
             <div class="flex flex-column w-50">
-                <h3>Subscribe our newsletter</h3>
+                <h2>Subscribe our newsletter</h2>
                 <p>
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form,

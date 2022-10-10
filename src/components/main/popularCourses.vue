@@ -2,7 +2,7 @@
     <div class="big-container">
         <div class="flex flex-column flex-center-y">
 
-            <h3>Popular courses</h3>
+            <h2>Popular courses</h2>
             <p>Discover our most popular courses for self learning</p>
 
             <div class="flex flex-aroud-x flex-wrap flex-center-y">

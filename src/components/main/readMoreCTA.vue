@@ -4,7 +4,7 @@
         <div class="flex" id="jumbotron-text">
 
             <div class="flex flex-column">
-                <h3>Limitless learning, more possibilities</h3>
+                <h2>Limitless learning, more possibilities</h2>
                 <p>
                     Online courses open the opportunity for learning to almost anyone,
                     regardless of their scheduling commitments.
@@ -45,7 +45,7 @@ button {
         font-weight: 200;
     }
 
-    h3 {
+    h2 {
         font-size: 3rem;
     }
 }

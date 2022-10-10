@@ -3,7 +3,7 @@
 
         <div class="flex flex-column">
 
-            <h3>Come as you are</h3>
+            <h2>Come as you are</h2>
             <p>
                 MasterStudy used is an excellent workshop whether you come
                 as a counselor, advisor, administrator, or faculty member. I am
@@ -30,7 +30,7 @@ export default {
   
 
 <style lang="scss" scoped>
-h3 {
+h2 {
     font-size: 3rem;
 }
 

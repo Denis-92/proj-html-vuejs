@@ -2,7 +2,7 @@
     <div class="little-container">
         <div class="flex flex-column flex-center-y" id="statistics">
 
-            <h3>We are Proud</h3>
+            <h2>We are Proud</h2>
 
             <p>Certificate courses are instructed by highly educated and qualified instructors who hold
                 doctoral and master's level degrees.

@@ -76,7 +76,6 @@ export default {
 #mainComponent {
   >* {
     margin: 2rem auto;
-    border: 1px solid black;
   }
 }
 
