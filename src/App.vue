@@ -7,7 +7,8 @@
     <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses" />
     <!-- class="flex flex-column flex-center-y" -->
 
-    <!-- FOOTER COMPONENT - TO DO -->
+    <!-- FOOTER COMPONENT -->
+    <footerComponentVue />
 
   </div>
 </template>
@@ -28,17 +29,21 @@ import { courses } from '@/assets/data/courses.js';
 import { categoriesCourses } from '@/assets/data/courses.js';
 
 
-// IMPORT HEADER COMPONENTS
+// IMPORT HEADER COMPONENT
 import headerComponentVue from '@/components/headerComponent.vue';
 
 // IMPORT MAIN COMPONENT
 import mainComponentVue from '@/components/mainComponent.vue';
+
+// IMPORT FOOTER COMPONENT
+import footerComponentVue from '@/components/footerComponent.vue';
 
 export default {
   name: 'App',
   components: {
     headerComponentVue,
     mainComponentVue,
+    footerComponentVue,
   },
   data() {
     return { navLinks, socials, courses, categoriesCourses, };
