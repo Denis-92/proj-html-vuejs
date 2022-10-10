@@ -1,5 +1,5 @@
 <template>
-    <div class="little-container">
+    <div class="big-container">
         <div class="flex">
 
             <div class="flex flex-column w-50">
@@ -13,8 +13,10 @@
 
             <div class="flex flex-column">
                 <h3>YOUR E-MAIL ADDRESS</h3>
-                <input type="text" placeholder="Enter your E-mail">
-                <button>SUBSCRIBE</button>
+                <div>
+                    <input type="text" placeholder="Enter your E-mail" id="input-email-box">
+                    <button class="blue-button">SUBSCRIBE</button>
+                </div>
             </div>
 
         </div>
@@ -30,5 +32,13 @@ export default {
   
 
 <style lang="scss" scoped>
+h3 {
+    padding: 1rem 0;
+}
 
+#input-email-box {
+    padding: 0.5rem 1rem;
+    border: 0;
+    width: 20rem;
+}
 </style>  

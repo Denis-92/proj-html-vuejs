@@ -21,7 +21,9 @@
       <subscribeNewsletterVue />
     </div>
 
-    <popularCoursesVue :importedCourses="importedCourses" />
+    <div id="popular-courses-bg">
+      <popularCoursesVue :importedCourses="importedCourses" />
+    </div>
 
     <div class="flex big-container">
       <startTeachingVue />
@@ -75,20 +77,26 @@ export default {
 <style lang="scss" scoped>
 #mainComponent {
   >* {
-    margin: 2rem auto;
+    padding: 2rem 0;
   }
 }
 
 #jumbotron-read-more {
   background-image: url('@/assets/img/images/Untitled-1-1-1-1-1.png');
   background-position: center;
-  background-size: cover; //oppure contain?
+  background-size: cover;
 }
 
 #jumbotron-we-proud {
   background-image: url('@/assets/img/images/we_proud.png');
   background-position: center;
-  background-size: cover;
+  background-size: auto;
+  background-color: #f0f4fa;
+  background-repeat: no-repeat;
+}
+
+#popular-courses-bg {
+  background-color: #f0f4fa;
 }
 
 #jumbotron-testimonial {
@@ -98,7 +106,7 @@ export default {
 }
 
 #newsletter {
-  background-color: green;
+  background-color: #4ed7a8;
   color: white;
 }
 </style>
