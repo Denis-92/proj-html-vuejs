@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <!-- HEADER COMPONENT -->
-    <navigationMenuVue :importedLinks="navLinks" :importedSocials="socials" />
-    <linksActionVue />
+    <headerComponentVue :importedLinks="navLinks" :importedSocials="socials" />
 
     <!-- MAIN COMPONENT -->
     <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses" />
@@ -30,8 +29,7 @@ import { categoriesCourses } from '@/assets/data/courses.js';
 
 
 // IMPORT HEADER COMPONENTS
-import navigationMenuVue from '@/components/header/navigationMenu.vue';
-import linksActionVue from '@/components/header/linksAction.vue';
+import headerComponentVue from '@/components/headerComponent.vue';
 
 // IMPORT MAIN COMPONENT
 import mainComponentVue from '@/components/mainComponent.vue';
@@ -39,8 +37,7 @@ import mainComponentVue from '@/components/mainComponent.vue';
 export default {
   name: 'App',
   components: {
-    navigationMenuVue,
-    linksActionVue,
+    headerComponentVue,
     mainComponentVue,
   },
   data() {
