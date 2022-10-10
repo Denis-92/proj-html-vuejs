@@ -1,35 +1,58 @@
 <template>
     <div class="big-container">
         <div class="flex flex-between-x flex-center-y">
-            <img src="@/assets/img/images/MasterStudy_logo.svg" alt="Master Study Logo">
+
+            <div class="flex flex-center-y">
+                <a href="#" class="flex flex-center-y">
+                    <img src="@/assets/img/images/MasterStudy_logo.svg" alt="Master Study Logo">
+                </a>
+            </div>
 
             <div class="flex">
 
-                <div class="flex flex-center-y" id="category">
-                    <font-awesome-icon icon="fa-solid fa-bars" />
-                    <p>CATEGORY</p>
+                <div class="flex flex-center-y">
+                    <a href="#" class="flex flex-center-y" id="category">
+                        <font-awesome-icon icon="fa-solid fa-bars" />
+                        <p>CATEGORY</p>
+                    </a>
                 </div>
 
                 <div class="flex flex-center-y">
                     <input type="text" placeholder="Search courses" id="search-box">
-                    <button id="button-search-box">
-                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                    <button class="blue-button">
+                        <a href="#">
+                            <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="white-font" />
+                        </a>
                     </button>
                 </div>
 
             </div>
 
-            <font-awesome-icon icon="fa-solid fa-bullhorn" />
-            <a href="#">Become an Instructor</a>
 
-            <font-awesome-icon icon="fa-solid fa-briefcase" />
-            <a href="#">For Enterprise</a>
+            <a href="#">
+                <font-awesome-icon icon="fa-solid fa-bullhorn" />
+                Become an Instructor
+            </a>
 
-            <font-awesome-icon icon="fa-solid fa-user" />
-            <a href="#">Log in</a>
 
-            <button>SIGN UP</button>
-            <font-awesome-icon icon="fa-solid fa-bookmark" />
+            <a href="#">
+                <font-awesome-icon icon="fa-solid fa-briefcase" />
+                For Enterprise
+            </a>
+
+
+            <a href="#">
+                <font-awesome-icon icon="fa-solid fa-user" />
+                Log in
+            </a>
+
+            <button class="blue-button pill-button">
+                <a href="#" class="white-font">
+                    SIGN UP
+                </a>
+            </button>
+
+            <font-awesome-icon icon="fa-solid fa-bookmark" class="blue-icon" />
 
         </div>
     </div>
@@ -61,10 +84,7 @@ export default {
     width: 25rem;
 }
 
-#button-search-box {
-    background-color: #195ec8;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: 0;
+.blue-icon {
+    color: #195ec8;
 }
 </style>  
