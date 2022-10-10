@@ -1,12 +1,12 @@
 <template>
     <nav class="big-container">
-        <div class="flex flex-between-x flex-center-y text-properties">
-            <span>
-                English
+        <div class="flex flex-between-x flex-center-y">
+            <span class="text-properties">
+                <span> English </span>
                 <font-awesome-icon icon="fa-solid fa-chevron-down" />
             </span>
 
-            <ul class="flex flex-center-y text-properties">
+            <ul class="flex flex-center-y text-properties text-padding">
 
                 <li v-for="elements in importedLinks" :key="elements.name" class="relative">
                     <a href="#">
@@ -15,7 +15,7 @@
                     <span v-if="elements.new" class="absolute">NEW</span>
                 </li>
 
-                <li v-for="elements in importedSocials" :key="elements.name">
+                <li v-for="elements in importedSocials" :key="elements.name" class="socials-padding">
                     <a href="#">
                         <font-awesome-icon :icon="elements.name" />
                     </a>
@@ -44,22 +44,27 @@ export default {
 <style lang="scss" scoped>
 li {
     a {
-        // TO DO: BETTER SOLUTION?
-        color: grey;
+        color: #888;
     }
 
     .absolute {
         top: 0;
         right: 0;
-        color: white;
-        background-color: red;
+        color: #fff;
+        background-color: #dc1245;
     }
 }
 
-.text-properties>* {
-    padding: 0.8rem;
-    font-size: 0.8rem;
+.text-padding>* {
+    padding: 0.7rem;
 }
 
-/* TO DO: REMOVE PADDING FROM FIRST AND LAST ELEMENT */
+.text-properties>* {
+    font-size: 0.7rem;
+    color: #888;
+}
+
+.socials-padding {
+    padding: 0.3rem;
+}
 </style>  

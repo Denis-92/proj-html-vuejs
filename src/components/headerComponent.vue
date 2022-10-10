@@ -1,6 +1,8 @@
 <template>
     <div>
-        <navigationMenuVue :importedLinks="importedLinks" :importedSocials="importedSocials" />
+        <div id="navigation-menu">
+            <navigationMenuVue :importedLinks="importedLinks" :importedSocials="importedSocials" />
+        </div>
         <linksActionVue />
     </div>
 </template>
@@ -27,5 +29,8 @@ export default {
   
   
 <style lang="scss">
-
+#navigation-menu {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
 </style>
