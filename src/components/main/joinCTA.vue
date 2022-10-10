@@ -1,12 +1,18 @@
 <template>
     <div class="flex flex-between-x little-container">
+
         <div class="flex flex-column flex-center-x" id="investing-you">
-            <h2>Start Investing in You</h2>
+            <h2 id="start-investing">Start Investing in You</h2>
             <p>With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you</p>
-            <button id="join-cta">JOIN FOR FREE</button>
+            <button class="blue-button pill-button" id="join-cta">
+                <a href="#" class="white-font">
+                    JOIN FOR FREE
+                </a>
+            </button>
         </div>
+
         <div class="flex flex-center-y">
-            <img src="@/assets/img/images/base.png" alt="Image of a screen">
+            <img src="@/assets/img/images/base.png" alt="Image of a screen" class="relative">
         </div>
     </div>
 </template>
@@ -21,19 +27,17 @@ export default {
 
 <style lang="scss" scoped>
 #join-cta {
-    width: 10rem;
-}
-
-.little-container {
-
-    >div {
-        height: 25rem;
-    }
+    width: 8rem;
 }
 
 #investing-you {
     >* {
         margin: 1rem;
     }
+}
+
+#start-investing {
+    font-size: 3rem;
+    font-weight: 300;
 }
 </style>  
