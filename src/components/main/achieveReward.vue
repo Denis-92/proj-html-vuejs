@@ -1,9 +1,6 @@
 <template>
     <div class="little-container">
-        <p>----</p>
-        <h2>TO DO: CREATE ELEMENTS</h2>
-        <img src="@/assets/img/hover-card1.png" alt="cards">
-        <p>----</p>
+        <img src="@/assets/img/hover-card1.png" alt="rewards achieved">
     </div>
 </template>
   
@@ -16,8 +13,5 @@ export default {
   
 
 <style lang="scss" scoped>
-img {
-    width: 100%;
-    height: auto;
-}
+
 </style>  
