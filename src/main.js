@@ -21,6 +21,8 @@ import {
 
 import {
   faChevronDown,
+  faChevronLeft,
+  faChevronRight,
   faBars,
   faMagnifyingGlass,
   faBullhorn,
@@ -40,6 +42,8 @@ library.add(
   faLinkedin,
   faPinterest,
   faChevronDown,
+  faChevronLeft,
+  faChevronRight,
   faBars,
   faMagnifyingGlass,
   faBullhorn,
