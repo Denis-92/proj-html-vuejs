@@ -9,7 +9,11 @@
                     Online courses open the opportunity for learning to almost anyone,
                     regardless of their scheduling commitments.
                 </p>
-                <button>READ MORE</button>
+                <button class="blue-button pill-button">
+                    <a href="#" class="white-font">
+                        READ MORE
+                    </a>
+                </button>
             </div>
 
         </div>
@@ -27,16 +31,22 @@ export default {
 
 <style lang="scss" scoped>
 button {
-    width: 10rem;
+    width: 8rem;
+    padding: 0.7rem 0;
 }
 
 #jumbotron-text {
-    width: 50%;
+    width: 47%;
     font-size: 1.4rem;
     padding: 5rem 0;
 
     >div>* {
         margin: 1rem 0;
+        font-weight: 200;
+    }
+
+    h3 {
+        font-size: 3rem;
     }
 }
 </style>  
