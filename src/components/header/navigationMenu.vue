@@ -2,8 +2,10 @@
     <nav class="big-container">
         <div class="flex flex-between-x flex-center-y">
             <span class="text-properties">
-                <span> English </span>
-                <font-awesome-icon icon="fa-solid fa-chevron-down" />
+                <a href="#">
+                    <span> English </span>
+                    <font-awesome-icon icon="fa-solid fa-chevron-down" />
+                </a>
             </span>
 
             <ul class="flex flex-center-y text-properties text-padding">
