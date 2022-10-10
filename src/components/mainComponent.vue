@@ -21,6 +21,8 @@
       <subscribeNewsletterVue />
     </div>
 
+    <popularCoursesVue :importedCourses="importedCourses" />
+
   </main>
 </template>
 
@@ -33,6 +35,7 @@ import readMoreCTAVue from '@/components/main/readMoreCTA.vue';
 import recentCoursesVue from '@/components/main/recentCourses.vue';
 import statisticSuccessVue from '@/components/main/statisticSuccess.vue';
 import subscribeNewsletterVue from '@/components/main/subscribeNewsletter.vue';
+import popularCoursesVue from '@/components/main/popularCourses.vue';
 
 export default {
   name: 'mainComponent',
@@ -44,6 +47,7 @@ export default {
     recentCoursesVue,
     statisticSuccessVue,
     subscribeNewsletterVue,
+    popularCoursesVue,
   },
   props: {
     importedCourses: Array,
