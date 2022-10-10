@@ -28,6 +28,10 @@
       <doingBusinessVue />
     </div>
 
+    <div id="jumbotron-testimonial">
+      <testimonialComponentVue />
+    </div>
+
   </main>
 </template>
 
@@ -43,6 +47,7 @@ import subscribeNewsletterVue from '@/components/main/subscribeNewsletter.vue';
 import popularCoursesVue from '@/components/main/popularCourses.vue';
 import startTeachingVue from '@/components/main/startTeaching.vue';
 import doingBusinessVue from '@/components/main/doingBusiness.vue';
+import testimonialComponentVue from '@/components/main/testimonialComponent.vue';
 
 export default {
   name: 'mainComponent',
@@ -57,6 +62,7 @@ export default {
     popularCoursesVue,
     startTeachingVue,
     doingBusinessVue,
+    testimonialComponentVue,
   },
   props: {
     importedCourses: Array,
@@ -82,6 +88,12 @@ export default {
 
 #jumbotron-we-proud {
   background-image: url('@/assets/img/images/we_proud.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#jumbotron-testimonial {
+  background-image: url('@/assets/img/images/brooke-cagle-224821-unsplash-1-1920x700.jpg');
   background-position: center;
   background-size: cover;
 }
