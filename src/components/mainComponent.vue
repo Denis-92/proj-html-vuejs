@@ -1,16 +1,26 @@
 <template>
   <main id="mainComponent">
+
     <joinCTAVue />
+
     <achieveRewardVue />
+
     <typeFieldsVue />
+
     <div id="jumbotron-read-more">
       <readMoreCTAVue />
     </div>
+
     <recentCoursesVue :importedCourses="importedCourses" :importedCategoriesCourses="importedCategoriesCourses" />
+
     <div id="jumbotron-we-proud">
       <statisticSuccessVue />
     </div>
-    <subscribeNewsletterVue />
+
+    <div id="newsletter">
+      <subscribeNewsletterVue />
+    </div>
+
   </main>
 </template>
 
@@ -61,5 +71,10 @@ export default {
   background-image: url('@/assets/img/images/we_proud.png');
   background-position: center;
   background-size: cover;
+}
+
+#newsletter {
+  background-color: green;
+  color: white;
 }
 </style>

@@ -1,6 +1,23 @@
 <template>
     <div class="little-container">
-        <h2>NEWSLETTER</h2>
+        <div class="flex">
+
+            <div class="flex flex-column w-50">
+                <h3>Subscribe our newsletter</h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form,
+                    by injected humor, or randomised words
+                </p>
+            </div>
+
+            <div class="flex flex-column">
+                <h3>YOUR E-MAIL ADDRESS</h3>
+                <input type="text" placeholder="Enter your E-mail">
+                <button>SUBSCRIBE</button>
+            </div>
+
+        </div>
     </div>
 </template>
   
@@ -13,8 +30,5 @@ export default {
   
 
 <style lang="scss" scoped>
-div {
-    background-color: aqua;
-    height: 200px;
-}
+
 </style>  
