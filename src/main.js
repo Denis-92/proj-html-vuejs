@@ -19,7 +19,15 @@ import {
   faPinterest,
 } from '@fortawesome/free-brands-svg-icons';
 
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import {
+  faChevronDown,
+  faBars,
+  faMagnifyingGlass,
+  faBullhorn,
+  faBriefcase,
+  faUser,
+  faBookmark,
+} from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
 library.add(
@@ -32,6 +40,12 @@ library.add(
   faLinkedin,
   faPinterest,
   faChevronDown,
+  faBars,
+  faMagnifyingGlass,
+  faBullhorn,
+  faBriefcase,
+  faUser,
+  faBookmark,
 )
 
 /* add font awesome icon component */
