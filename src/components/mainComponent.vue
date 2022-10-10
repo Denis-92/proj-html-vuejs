@@ -110,8 +110,13 @@ export default {
   color: white;
 }
 
-.border-sub-section>* {
-  border: 1px solid #888;
-  margin: 0.5rem;
+.border-sub-section {
+  margin: 5rem auto;
+
+  >* {
+    border: 1px solid #888;
+    margin: 0.5rem;
+    width: 50%;
+  }
 }
 </style>
