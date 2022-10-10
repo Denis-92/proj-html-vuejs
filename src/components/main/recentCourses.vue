@@ -37,7 +37,7 @@
                     <div class="flex flex-between-x flex-center-y summary">
                         <p>6 hours</p>
                         <div>
-                            <p>$60</p>
+                            <p class="discount">$60</p>
                             <p>$45</p>
                         </div>
                     </div>
@@ -48,7 +48,14 @@
                     <h4>Software Development</h4>
                     <p>Basics of Masterstudy</p>
                     <div class="flex flex-between-x flex-center-y summary">
-                        <div>VOTO 5</div>
+                        <div class="flex">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <span>5</span>
+                        </div>
                         <p>Free</p>
                     </div>
                 </div>
@@ -58,9 +65,16 @@
                     <h4>Electronic</h4>
                     <p>How to be a DJ? Make Electronic Music</p>
                     <div class="flex flex-between-x flex-center-y summary">
-                        <div>VOTO 5</div>
+                        <div class="flex">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <span>5</span>
+                        </div>
                         <div class="flex flex-column">
-                            <p>$59</p>
+                            <p class="discount">$59</p>
                             <p>$49</p>
                         </div>
                     </div>
@@ -123,7 +137,14 @@
                     <h4>Nvidia</h4>
                     <p>Nvidia and UE4 Technologies Practice</p>
                     <div class="flex flex-between-x flex-center-y summary">
-                        <p>VOTO 5</p>
+                        <div class="flex">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <img src="@/assets/img/images/starfull.svg" alt="yellow star rating">
+                            <span>5</span>
+                        </div>
                         <p>Free</p>
                     </div>
                 </div>
@@ -180,8 +201,6 @@ export default {
     margin: 0.5rem;
     height: 18rem;
     border: 1px solid #888;
-
-    >* {}
 }
 
 h2 {
@@ -218,5 +237,12 @@ h4 {
 h4,
 p {
     margin: 0.3rem;
+}
+
+.discount {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.8rem;
+    text-align: right;
 }
 </style>  
