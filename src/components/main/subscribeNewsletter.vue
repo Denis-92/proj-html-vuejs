@@ -14,7 +14,7 @@
             <div class="flex flex-column">
                 <h3>YOUR E-MAIL ADDRESS</h3>
                 <div>
-                    <input type="text" placeholder="Enter your E-mail" id="input-email-box">
+                    <input type="email" placeholder="Enter your E-mail" id="input-email-box">
                     <button class="blue-button">SUBSCRIBE</button>
                 </div>
             </div>
