@@ -51,5 +51,13 @@ export default {
   
 
 <style lang="scss" scoped>
+p {
+    font-size: 0.8rem;
+    color: #888;
+    margin-left: 0.5rem;
+}
 
+li {
+    margin: 0.5rem 0;
+}
 </style>  
