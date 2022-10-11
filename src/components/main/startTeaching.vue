@@ -1,32 +1,27 @@
 <template>
-
     <div class="flex flex-center-y flex-center-x" id="container-section">
 
         <div>
             <img src="@/assets/img/images/image_box_1-221x231.png" alt="colored computer screens">
         </div>
 
-        <div class="flex flex-column">
-            <h2>Become an Instructor</h2>
-            <p>
-                Teach what you love. Masterstudy gives you
-                the tools to create a course.
-            </p>
-            <button class="blue-button pill-button" id="button-start-teaching">
-                <a href="#" class="white-font">
-                    START TEACHING
-                </a>
-            </button>
-        </div>
+        <BoxContributorsVue :importedContributor="importedContributor" />
 
     </div>
-
 </template>
   
 
 <script>
+import BoxContributorsVue from '../lego/boxContributors.vue';
+
 export default {
-    name: 'startTeaching',
+    name: "startTeaching",
+    props: {
+        importedContributor: Object,
+    },
+    components: {
+        BoxContributorsVue,
+    },
 }
 </script>
   

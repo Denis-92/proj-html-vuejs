@@ -4,8 +4,8 @@
     <headerComponentVue :importedLinks="navLinks" :importedSocials="socials" />
 
     <!-- MAIN COMPONENT -->
-    <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses"
-      :importedGoals="goals" />
+    <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses" :importedGoals="goals"
+      :importedContributors="contributors" />
 
     <!-- FOOTER COMPONENT -->
     <footerComponentVue :importedSocialsFooter="socialsFooter" :importedContactsFooter="contactsFooter"
@@ -36,6 +36,9 @@ import { courses } from '@/assets/data/courses.js';
 
 // DATA CATEGORIES COURSES
 import { categoriesCourses } from '@/assets/data/courses.js';
+
+// DATA CONTRIBUTORS
+import { contributors } from '@/assets/data/contributors.js'
 
 // DATA SOCIALS FOOTER
 import { socialsFooter } from '@/assets/data/menuFooter.js';
@@ -73,6 +76,7 @@ export default {
       socials,
       courses,
       categoriesCourses,
+      contributors,
       socialsFooter,
       contactsFooter,
       pagesFooter,

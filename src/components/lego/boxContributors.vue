@@ -1,27 +1,32 @@
 <template>
+
     <div class="flex flex-center-y flex-center-x" id="container-section">
 
-        <div>
-            <img src="@/assets/img/images/image_box_2-234x231.png" alt="colored computer screens">
+        <div class="flex flex-column">
+            <h2>
+                {{ importedContributor.title }}
+            </h2>
+            <p>
+                {{importedContributor.description}}
+            </p>
+            <button class="blue-button pill-button" id="button-start-teaching">
+                <a href="#" class="white-font">
+                    {{ importedContributor.action }}
+                </a>
+            </button>
         </div>
 
-        <BoxContributorsVue :importedContributor="importedContributor" />
-
     </div>
+
 </template>
   
 
 <script>
-import BoxContributorsVue from '@/components/lego/boxContributors.vue';
-
 export default {
-    name: 'doingBusiness',
+    name: 'startTeaching',
     props: {
         importedContributor: Object,
-    },
-    components: {
-        BoxContributorsVue,
-    },
+    }
 }
 </script>
   
@@ -31,7 +36,7 @@ button {
     width: 10rem;
 }
 
-#button-doing-business {
+#button-start-teaching {
     padding: 0.8rem 0;
 }
 

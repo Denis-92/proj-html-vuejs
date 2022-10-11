@@ -26,8 +26,8 @@
     </div>
 
     <div class="flex flex-center-x big-container border-sub-section">
-      <startTeachingVue />
-      <doingBusinessVue />
+      <startTeachingVue :importedContributor="importedContributors[0]" />
+      <doingBusinessVue :importedContributor="importedContributors[1]" />
     </div>
 
     <div id="jumbotron-testimonial">
@@ -70,6 +70,7 @@ export default {
     importedGoals: Array,
     importedCourses: Array,
     importedCategoriesCourses: Array,
+    importedContributors: Array,
   }
 }
 </script>
