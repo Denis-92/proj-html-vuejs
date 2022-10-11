@@ -89,5 +89,8 @@ export default {
   position: fixed;
   right: 0;
   top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 1px 5px 1px #888;
+  background-color: rgba(255, 255, 255, 0.5)
 }
 </style>

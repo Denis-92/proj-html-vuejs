@@ -35,7 +35,6 @@ export default {
   
 <style lang="scss" scoped>
 #sidebar-container {
-    border: 1px solid #888;
     padding: 1rem;
 
     >* {
