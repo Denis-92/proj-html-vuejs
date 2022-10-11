@@ -8,7 +8,8 @@
     <!-- class="flex flex-column flex-center-y" -->
 
     <!-- FOOTER COMPONENT -->
-    <footerComponentVue />
+    <footerComponentVue :importedSocialsFooter="socialsFooter" :importedContactsFooter="contactsFooter"
+      :importedPagesFooter="pagesFooter" />
 
   </div>
 </template>
@@ -28,6 +29,15 @@ import { courses } from '@/assets/data/courses.js';
 // DATA CATEGORIES COURSES
 import { categoriesCourses } from '@/assets/data/courses.js';
 
+// DATA SOCIALS FOOTER
+import { socialsFooter } from '@/assets/data/menuFooter.js';
+
+// DATA CONTACTS FOOTER
+import { contactsFooter } from '@/assets/data/menuFooter.js';
+
+// DATA PAGES FOOTER
+import { pagesFooter } from '@/assets/data/menuFooter.js';
+
 
 // IMPORT HEADER COMPONENT
 import headerComponentVue from '@/components/headerComponent.vue';
@@ -46,7 +56,7 @@ export default {
     footerComponentVue,
   },
   data() {
-    return { navLinks, socials, courses, categoriesCourses, };
+    return { navLinks, socials, courses, categoriesCourses, socialsFooter, contactsFooter, pagesFooter, };
   },
 }
 </script>

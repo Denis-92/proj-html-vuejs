@@ -17,6 +17,7 @@ import {
   faGit,
   faLinkedin,
   faPinterest,
+  faFacebook,
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -42,6 +43,7 @@ library.add(
   faGit,
   faLinkedin,
   faPinterest,
+  faFacebook,
   faChevronDown,
   faChevronLeft,
   faChevronRight,

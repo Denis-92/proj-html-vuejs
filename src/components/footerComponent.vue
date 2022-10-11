@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="flex">
-            <footerAboutVue />
-            <footerContactVue />
+        <div class="flex big-container" id="footer-container">
+            <footerAboutVue :importedSocialsFooter="importedSocialsFooter" />
+            <footerContactVue :importedContactsFooter="importedContactsFooter" />
         </div>
     </div>
 </template>
@@ -15,10 +15,11 @@ import footerContactVue from '@/components/footer/footerContact.vue';
 
 export default {
     name: 'footerComponent',
-    // props: {
-    //     importedLinks: Array,
-    //     importedSocials: Array,
-    // },
+    props: {
+        importedSocialsFooter: Array,
+        importedContactsFooter: Array,
+        importedPagesFooter: Array,
+    },
     components: {
         footerAboutVue,
         footerContactVue,
@@ -29,5 +30,12 @@ export default {
   
   
 <style lang="scss">
+#footer-container {
+    margin: 4rem;
 
+    >* {
+        width: 24%;
+        margin: 0.6rem;
+    }
+}
 </style>
