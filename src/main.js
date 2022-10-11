@@ -29,6 +29,7 @@ import {
   faBriefcase,
   faUser,
   faBookmark,
+  faCaretRight,
 } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
@@ -50,6 +51,7 @@ library.add(
   faBriefcase,
   faUser,
   faBookmark,
+  faCaretRight,
 )
 
 /* add font awesome icon component */
