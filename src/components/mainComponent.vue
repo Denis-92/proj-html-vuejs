@@ -3,7 +3,7 @@
 
     <joinCTAVue />
 
-    <achieveRewardVue />
+    <achieveRewardVue :importedGoals="importedGoals" />
 
     <typeFieldsVue />
 
@@ -67,6 +67,7 @@ export default {
     testimonialComponentVue,
   },
   props: {
+    importedGoals: Array,
     importedCourses: Array,
     importedCategoriesCourses: Array,
   }

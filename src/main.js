@@ -32,9 +32,13 @@ import {
   faBookmark,
   faCaretRight,
   faDesktop,
+  faGlobe,
   faWrench,
   faCartShopping,
   faMobileScreen,
+  faEarthAfrica,
+  faCalendarCheck,
+
 } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
@@ -59,9 +63,12 @@ library.add(
   faBookmark,
   faCaretRight,
   faDesktop,
+  faGlobe,
   faWrench,
   faCartShopping,
   faMobileScreen,
+  faEarthAfrica,
+  faCalendarCheck,
 )
 
 /* add font awesome icon component */

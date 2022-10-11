@@ -6,7 +6,7 @@
         </a>
 
         <a href="#" class="grey-font">
-            <font-awesome-icon icon="fa-solid fa-mobile-screen" />
+            <font-awesome-icon icon="fa-solid fa-globe" />
         </a>
 
         <a href="#" class="grey-font">

@@ -4,7 +4,8 @@
     <headerComponentVue :importedLinks="navLinks" :importedSocials="socials" />
 
     <!-- MAIN COMPONENT -->
-    <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses" />
+    <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses"
+      :importedGoals="goals" />
 
     <!-- FOOTER COMPONENT -->
     <footerComponentVue :importedSocialsFooter="socialsFooter" :importedContactsFooter="contactsFooter"
@@ -26,6 +27,9 @@ import { navLinks } from '@/assets/data/navHeader.js';
 
 // DATA ICONS FONT AWESOME
 import { socials } from '@/assets/data/navHeader.js';
+
+// DATA GOALS MAIN
+import { goals } from '@/assets/data/goalsMain.js';
 
 // DATA COURSES
 import { courses } from '@/assets/data/courses.js';
@@ -64,7 +68,16 @@ export default {
     sidebarCompoonentVue,
   },
   data() {
-    return { navLinks, socials, courses, categoriesCourses, socialsFooter, contactsFooter, pagesFooter, };
+    return {
+      navLinks,
+      socials,
+      courses,
+      categoriesCourses,
+      socialsFooter,
+      contactsFooter,
+      pagesFooter,
+      goals,
+    };
   },
 }
 </script>
