@@ -17,6 +17,10 @@ export const contactsFooter = [
         "type": "Email",
         "address": "info@masterstudy.com"
     },
+    {
+        "type": "Legal location",
+        "address": "USA, California 20, First Avenue, California"
+    }
 ]
 
 export const pagesFooter = [

@@ -1,13 +1,12 @@
 <template>
     <div>
         <h3>Contact</h3>
-        <p>
-            USA, California 20, First Avenue,
-            California
+        <p class="grey-font">
+            {{ importedContactsFooter[3].address }}
         </p>
-        <p>Tel.: +1 212 458 300 32</p>
-        <p>Fax: +1 212 375 24 14</p>
-        <a href="#">info@masterstudy.com</a>
+        <p class="grey-font">{{ importedContactsFooter[0].type }}: {{ importedContactsFooter[0].number }}</p>
+        <p class="grey-font">{{ importedContactsFooter[1].type }}: {{ importedContactsFooter[1].number }}</p>
+        <a href="#" class="grey-font"> {{ importedContactsFooter[2].address }} </a>
     </div>
 </template>
   
@@ -15,6 +14,9 @@
 <script>
 export default {
     name: 'footerContact',
+    props: {
+        importedContactsFooter: Array,
+    }
 }
 </script>
   
