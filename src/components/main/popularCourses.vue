@@ -107,12 +107,12 @@
             <!-- END CARDS -->
 
             <div class="flex" id="arrow-buttons">
-                <button>
+                <button class="button-hover-effect">
                     <a href="#">
                         <font-awesome-icon icon="fa-solid fa-chevron-left" />
                     </a>
                 </button>
-                <button>
+                <button class="button-hover-effect">
                     <a href="#">
                         <font-awesome-icon icon="fa-solid fa-chevron-right" />
                     </a>
@@ -186,12 +186,23 @@ h4 {
 
 #arrow-buttons>* {
     border: 1px solid #888;
-    background-color: #fff;
     padding: 0.8rem;
     margin-top: 2rem;
+}
 
-    a {
+.button-hover-effect {
+    background-color: #fff;
+
+    >* {
         color: #888;
+    }
+}
+
+.button-hover-effect:hover {
+    background-color: blue;
+
+    >* {
+        color: #fff;
     }
 }
 </style>  
