@@ -28,22 +28,28 @@ export const pagesFooter = [
         "name": "Blog",
         "link": "#",
     },
-    {
-        "name": "Home",
-        "link": "#",
-    },
-    {
-        "name": "Shortcodes",
-        "link": "#",
-    },
+
     {
         "name": "Courses",
         "link": "#",
     },
+
+    {
+        "name": "Home",
+        "link": "#",
+    },
+
+
     {
         "name": "Membership A...",
         "link": "#",
     },
+
+    {
+        "name": "Shortcodes",
+        "link": "#",
+    },
+
     {
         "name": "Typography",
         "link": "#",

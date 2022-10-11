@@ -3,6 +3,7 @@
         <div class="flex big-container" id="footer-container">
             <footerAboutVue :importedSocialsFooter="importedSocialsFooter" />
             <footerContactVue :importedContactsFooter="importedContactsFooter" />
+            <footerPagesVue :importedPagesFooter="importedPagesFooter" />
         </div>
     </div>
 </template>
@@ -12,6 +13,7 @@
 // IMPORT FOOTER COMPONENTS
 import footerAboutVue from '@/components/footer/footerAbout.vue';
 import footerContactVue from '@/components/footer/footerContact.vue';
+import footerPagesVue from '@/components/footer/footerPages.vue';
 
 export default {
     name: 'footerComponent',
@@ -23,6 +25,7 @@ export default {
     components: {
         footerAboutVue,
         footerContactVue,
+        footerPagesVue,
     }
 
 }
