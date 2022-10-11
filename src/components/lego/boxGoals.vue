@@ -2,9 +2,11 @@
     <div class="little-container flex">
 
         <div>
-            <font-awesome-icon :icon="importedGoals.icon" />
+            <div class="icon-properties">
+                <font-awesome-icon :icon="importedGoals.icon" />
+            </div>
             <h2> {{ importedGoals.title }} </h2>
-            <p>
+            <p class="grey-font">
                 {{ importedGoals.description }}
             </p>
         </div>
@@ -24,5 +26,18 @@ export default {
   
 
 <style lang="scss" scoped>
+.icon-properties {
+    color: blue;
+    font-size: 3rem;
+}
 
+h2 {
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+h2,
+p {
+    font-size: 0.9rem;
+}
 </style>  

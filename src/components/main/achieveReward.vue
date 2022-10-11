@@ -1,11 +1,17 @@
 <template>
-    <div class="little-container flex">
+    <div class="little-container flex flex-center-y">
 
-        <boxGoalsVue :importedGoals="importedGoals[0]" />
+        <div class="goals-container">
+            <boxGoalsVue :importedGoals="importedGoals[0]" />
+        </div>
 
-        <boxGoalsVue :importedGoals="importedGoals[1]" />
+        <div class="goals-container">
+            <boxGoalsVue :importedGoals="importedGoals[1]" />
+        </div>
 
-        <boxGoalsVue :importedGoals="importedGoals[2]" />
+        <div class="goals-container">
+            <boxGoalsVue :importedGoals="importedGoals[2]" />
+        </div>
 
     </div>
 </template>
@@ -26,5 +32,10 @@ export default {
   
 
 <style lang="scss" scoped>
-
+.goals-container {
+    background-color: #f2f6fb;
+    margin-left: 1rem;
+    padding: 1rem;
+    height: 14rem;
+}
 </style>  
