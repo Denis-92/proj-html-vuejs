@@ -11,6 +11,11 @@
     <footerComponentVue :importedSocialsFooter="socialsFooter" :importedContactsFooter="contactsFooter"
       :importedPagesFooter="pagesFooter" />
 
+    <!-- SIDEBAR -->
+    <div id="sidebar-component">
+      <sidebarCompoonentVue />
+    </div>
+
   </div>
 </template>
 
@@ -48,12 +53,16 @@ import mainComponentVue from '@/components/mainComponent.vue';
 // IMPORT FOOTER COMPONENT
 import footerComponentVue from '@/components/footerComponent.vue';
 
+// IMPORT SIDEBAR COMPONENT
+import sidebarCompoonentVue from '@/components/sidebarComponent.vue';
+
 export default {
   name: 'App',
   components: {
     headerComponentVue,
     mainComponentVue,
     footerComponentVue,
+    sidebarCompoonentVue,
   },
   data() {
     return { navLinks, socials, courses, categoriesCourses, socialsFooter, contactsFooter, pagesFooter, };
@@ -74,5 +83,11 @@ export default {
 .big-container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+#sidebar-component {
+  position: fixed;
+  right: 0;
+  top: 50%;
 }
 </style>
