@@ -4,6 +4,7 @@
             <footerAboutVue :importedSocialsFooter="importedSocialsFooter" />
             <footerContactVue :importedContactsFooter="importedContactsFooter" />
             <footerPagesVue :importedPagesFooter="importedPagesFooter" />
+            <footerBlogVue />
         </div>
     </div>
 </template>
@@ -14,6 +15,7 @@
 import footerAboutVue from '@/components/footer/footerAbout.vue';
 import footerContactVue from '@/components/footer/footerContact.vue';
 import footerPagesVue from '@/components/footer/footerPages.vue';
+import footerBlogVue from '@/components/footer/footerBlog.vue';
 
 export default {
     name: 'footerComponent',
@@ -26,6 +28,7 @@ export default {
         footerAboutVue,
         footerContactVue,
         footerPagesVue,
+        footerBlogVue,
     }
 
 }
