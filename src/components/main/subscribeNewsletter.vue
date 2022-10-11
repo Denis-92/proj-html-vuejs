@@ -1,5 +1,5 @@
 <template>
-    <div class="big-container">
+    <div class="little-container">
         <div class="flex">
 
             <div class="flex flex-column w-50">

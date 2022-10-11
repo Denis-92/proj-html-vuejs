@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="flex big-container" id="footer-container">
+    <div class="little-container">
+        <div class="flex" id="footer-container">
             <footerAboutVue :importedSocialsFooter="importedSocialsFooter" />
             <footerContactVue :importedContactsFooter="importedContactsFooter" />
             <footerPagesVue :importedPagesFooter="importedPagesFooter" />
@@ -37,7 +37,7 @@ export default {
   
 <style lang="scss">
 #footer-container {
-    margin: 4rem;
+    margin: 4rem 0;
 
     >* {
         width: 24%;

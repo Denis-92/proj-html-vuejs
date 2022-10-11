@@ -5,7 +5,6 @@
 
     <!-- MAIN COMPONENT -->
     <mainComponentVue :importedCourses="courses" :importedCategoriesCourses="categoriesCourses" />
-    <!-- class="flex flex-column flex-center-y" -->
 
     <!-- FOOTER COMPONENT -->
     <footerComponentVue :importedSocialsFooter="socialsFooter" :importedContactsFooter="contactsFooter"
